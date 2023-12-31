@@ -1,0 +1,3 @@
+
+亓 (Ziqi Zhou) <ziqiphyzhou@gmail.com> : (GPLv3)
+  gryihleng.*.yaml
