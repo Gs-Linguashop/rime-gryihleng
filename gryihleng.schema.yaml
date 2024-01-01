@@ -4,7 +4,7 @@
 schema:
   schema_id: gryihleng
   name: "諧聲雙拼"
-  version: "2023.12.31"
+  version: "2024.01.01"
   author:
     - 亓 <ziqiphyzhou@gmail.com>
   dependencies:
@@ -49,6 +49,9 @@ speller:
   alphabet: "abcdefghijklmnopqrstuvwxyz'"
   algebra: # do not change the processing order 
     - xform/ng/v/ # for convenience 
+    - xform/A/3/ # for convenience 
+    - xform/B/5/ # for convenience 
+    - xform/[14]/1/ # for convenience 
     # 合口色彩的來源模糊韻
     - derive/([pb]h?\d)uv/$1ym/
     - derive/([skgxqv]h?)(\d)u([itn])/$1w$2y$3/
@@ -183,9 +186,9 @@ reverse_lookup:
     - xform/(kh?|g|h)l/$1ˡ/
     - xform/([pmkŋwlrtnc])h/$1ʰ/
     - xform/([^s])w/$1ʷ/
-    - xform/3//
-    - xform/5/ʳ/
-    - xform/1/ˁ/
+    - xform/A//
+    - xform/B/ʳ/
+    - xform/[14]/ˁ/
     - xform/2/ʳˁ/
     - xlit/y/ə/
   dictionary: luna_pinyin
