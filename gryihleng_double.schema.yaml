@@ -1,0 +1,215 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: gryihleng_double
+  name: "諧聲雙拼"
+  version: "2024.01.01"
+  author:
+    - 亓 <ziqiphyzhou@gmail.com>
+  dependencies:
+    - luna_pinyin # 或者任何其它字典，請修改reverse_lookup
+# updates replace the header until here 
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: ["中文", "西文"]
+  - name: full_shape
+    reset: 0
+    states: ["半角", "全角"]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator  
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  delimiter: " '"
+  alphabet: "abcdefghijklmnopqrstuvwxyz;"
+  algebra: # do not change the processing order 
+    - xform/ng/v/ # for convenience 
+    - xform/A/3/ # for convenience 
+    - xform/B/5/ # for convenience 
+    - xform/[14]/1/ # for convenience 
+    - xform/(?<!\w)h/x/ # for convenience 
+    - xform/(?<!\w)l/j/ # for convenience 
+    # 合口色彩的來源模糊韻
+    - derive/([pb]h?\d)uv/$1ym/
+    - derive/([skgxqv]h?)(\d)u([itn])/$1w$2y$3/
+    - derive/([skgxqv]h?)(\d)o([itn])/$1w$2a$3/
+    - derive/([skgxqv]h?)(\d)([uo])([itn])/$1w$2$3$4/
+    # 韻母
+    - xform/yk/O/
+    - xform/ak/K/
+    - xform/ek/P/
+    - xform/yv/T/
+    - xform/av/G/
+    - xform/ev/B/
+    - xform/uv/Q/
+    - xform/ov/A/
+    - derive/1au(?!k)/1W/ # 一等u、au來源易混
+    - xform/[ea]uk?/Z/
+    - xform/yi/I/
+    - xform/ai/L/
+    - xform/[uo][it]/X/
+    - xform/[iy]t|([12])et/$1U/
+    - xform/at|([35])et/$1J/
+    - xform/[iy]n|([12])en/$1E/
+    - xform/an|([35])en/$1D/
+    - xform/[uo]n/C/
+    - xform/[iy]p|([12])ep/$1Y/
+    - xform/ap|([35])ep/$1H/
+    - xform/[iy]m|([12])em/$1N/
+    - xform/am|([35])em/$1M/
+    - xform/y/R/
+    - xform/i?a/F/
+    - derive/1u(?!k)/1Z/ # 一等u、au來源易混
+    - xform/i?uk?/W/
+    - xform/ok?/S/
+    - xform/e/V/
+    - xform/i/I/
+    #聲母
+    - xform/[pb]h?1/Y/
+    - xform/[pb]h?[35]/H/
+    - xform/[pb]h?2/N/
+    - xform/m[lh]?\d/A/
+    - xform/[kg]h?l?1/O/
+    - xform/[kg]h?l?[35]/K/
+    - xform/[kg]h?l?2/P/
+    - derive/xl?\d/C/ # 曉母額外可選按鍵
+    - xform/xl?\d/Z/
+    - xform/q\d/Q/
+    - xform/vh?\d/E/
+    - xform/[skgxqv]?h?w1/W/
+    - xform/[skgxqv]?h?w[35]/S/
+    - xform/[skgxqv]?h?w2/X/
+    - xform/jh?3/I/
+    - xform/r\d/L/ # must preceed processing "t" and "s" 
+    - xform/[tdjr]h?1/U/
+    - xform/[td]h?3/J/
+    - xform/[tdj]h?[25]/M/
+    - xform/nh?\d/D/
+    - xform/[cz]h?1/T/
+    - xform/[cz]h?3/G/
+    - xform/[cz]h?[25]/B/
+    - xform/s[lt]?1/R/
+    - xform/s[lt]?3/F/
+    - xform/[sr]h?[25]/V/
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|abcdefghijklmnopqrstuvwxyz|"
+    - abbrev/^([a-z]).$/$1;/ # 簡拼（首字母）
+
+translator:
+  dictionary: gryihleng
+  prism: gryihleng_double
+  preedit_format:
+    - xform/(^|[ '])q/$1ʔ/
+    - xform/(^|[ '])a/$1M/
+    - xform/(^|[ '])z/$1H/
+    - xform/(^|[ '])w/$1Wˁ/
+    - xform/(^|[ '])s/$1W/
+    - xform/(^|[ '])x/$1Wʳ/
+    - xform/(^|[ '])e/$1Ŋ/
+    - xform/(^|[ '])d/$1N/
+    - xform/(^|[ '])c/$1H/
+    - xform/(^|[ '])r/$1Sˁ/
+    - xform/(^|[ '])f/$1S/
+    - xform/(^|[ '])v/$1Sʳ/
+    - xform/(^|[ '])t/$1Cˁ/
+    - xform/(^|[ '])g/$1C/
+    - xform/(^|[ '])b/$1Cʳ/
+    - xform/(^|[ '])y/$1Pˁ/
+    - xform/(^|[ '])h/$1P/
+    - xform/(^|[ '])n/$1Pʳ/
+    - xform/(^|[ '])u/$1Tˁ/
+    - xform/(^|[ '])j/$1T/
+    - xform/(^|[ '])m/$1Tʳ/
+    - xform/(^|[ '])i/$1L/
+    - xform/(^|[ '])k/$1K/
+    - xform/(^|[ '])o/$1Kˁ/
+    - xform/(^|[ '])l/$1R/
+    - xform/(^|[ '])p/$1Kʳ/
+    - xform/q/UŊ/
+    - xform/a/OŊ/
+    - xform/z/AU/
+    - xform/w/U/
+    - xform/s/O/
+    - xform/x/UI/
+    - xform/e/ƏN/
+    - xform/d/AN/
+    - xform/c/UN/
+    - xform/r/Ə/
+    - xform/f/A/
+    - xform/v/E/
+    - xform/t/ƏŊ/
+    - xform/g/AŊ/
+    - xform/b/EŊ/
+    - xform/y/ƏP/
+    - xform/h/AP/
+    - xform/n/ƏM/
+    - xform/u/ƏT/
+    - xform/j/AT/
+    - xform/m/AM/
+    - xform/i/I/
+    - xform/k/AK/
+    - xform/o/ƏK/
+    - xform/l/AI/
+    - xform/p/EK/
+    - xform/;//
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZƏŊ|abcdefghijklmnopqrstuvwxyzəŋ|"
+
+menu:
+  page_size: 10
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  comment_format:
+    - xform/ng/ŋ/
+    - xform/q/ʔ/
+    - xform/(kh?|g|h)l/$1ˡ/
+    - xform/([pmkŋwlrtnc])h/$1ʰ/
+    - xform/([^s])w/$1ʷ/
+    - xform/A//
+    - xform/B/ʳ/
+    - xform/[14]/ˁ/
+    - xform/2/ʳˁ/
+    - xlit/y/ə/
+  preedit_format:
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"
+  prefix: "`"
+  suffix: "'"
+  prism: luna_pinyin
+  tips: "〔拼音〕"
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
