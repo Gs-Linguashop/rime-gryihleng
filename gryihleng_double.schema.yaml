@@ -68,7 +68,6 @@ speller:
     - xform/ev/B/
     - xform/uv/Q/
     - xform/ov/A/
-    - derive/1au(?!k)/1W/ # 一等u、au來源易混
     - xform/[ea]uk?/Z/
     - xform/yi/I/
     - xform/ai/L/
@@ -84,7 +83,6 @@ speller:
     - xform/am|([35])em/$1M/
     - xform/y/R/
     - xform/i?a/F/
-    - derive/1u(?!k)/1Z/ # 一等u、au來源易混
     - xform/i?uk?/W/
     - xform/ok?/S/
     - xform/e/V/

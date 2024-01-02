@@ -55,13 +55,12 @@ speller:
     - derive/([skgxqv]h?)([AB124])u([itn])/$1w$2y$3/
     - derive/([skgxqv]h?)([AB124])o([itn])/$1w$2a$3/
     - derive/([skgxqv]h?)([AB124])([uo])([itn])/$1w$2$3$4/
-    - derive/1au(?!k)/1u/ # 一等u、au來源易混
-    - derive/1u(?!k)/1au/ # 一等u、au來源易混
+    # 介音
     - xform/[A14]//
     - xform/[B2]/r/
     - xform/x/h/
     - abbrev/^([a-z]).+$/$1/ # 簡拼（首字母）
-    - xform/v/ng/
+    - derive/v/ng/ # ng省碼v
 
 translator:
   dictionary: gryihleng
