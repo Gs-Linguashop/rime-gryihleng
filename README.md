@@ -13,4 +13,8 @@
 
 按“`”鍵使用[朙月拼音](https://github.com/rime/rime-luna-pinyin)反查上古音，當然也可以替換成其它反查輸入方式
 
+在iOS上使用[倉](https://github.com/imfuxiao/Hamster)輸入法時，可以安裝[專用鍵盤](hamster_supplements/clear_keyboard.custom.yaml)和[高對比配色](hamster_supplements/hamster_color_schemas.custom.yaml)；配色文件直接放至Rime文件夾部署即可；鍵盤保留了上下劃常用數字和標點，請劃一劃試試；上劃Shift反查，上劃Space切換英文，Space兩側的鍵是簡拼時用來替換韻母的“;”
+
+![iOS倉輸入法截圖](hamster_supplements/screenshot.jpeg)
+
 授權條款：見 [LICENSE](LICENSE.txt)
