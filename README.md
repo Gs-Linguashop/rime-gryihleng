@@ -6,7 +6,7 @@
 
 拼寫信息請參考[描述](src/description.md)文件；字典主要由中古韻圖、諧聲資料和詩經韻部反推生成，目前還沒有校對完全
 
-雙拼鍵盤佈局請參考[雙拼聲母鍵盤圖](src/double_first_letter(consonant+medial).txt)和[雙拼聲母鍵盤圖](src/double_second_letter(rhyme).txt)文件
+雙拼鍵盤佈局請參考[雙拼聲母鍵盤圖](src/double_first_letter(consonant+medial).txt)和[雙拼韻母鍵盤圖](src/double_second_letter(rhyme).txt)文件
 * 音節首拼：上古聲母諧聲類+介音
 * 音節尾拼：上古韻母
 * 韻母可以用“;”代替，實現簡碼
