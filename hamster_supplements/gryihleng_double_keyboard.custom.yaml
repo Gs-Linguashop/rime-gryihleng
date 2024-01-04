@@ -471,6 +471,9 @@ keyboards:
                 direction: down
           - action: backspace
             width: available
+            swipe:
+              - direction: left
+                action: { shortcutCommand: "#重输" }
       - keys:
           - action:
               keyboardType: classifySymbolic
