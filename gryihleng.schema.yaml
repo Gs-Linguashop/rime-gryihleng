@@ -4,7 +4,7 @@
 schema:
   schema_id: gryihleng
   name: "諧聲全拼"
-  version: "2024.01.02"
+  version: "2024.01.03"
   author:
     - 亓 <ziqiphyzhou@gmail.com>
   dependencies:
