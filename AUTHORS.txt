@@ -3,3 +3,4 @@
   gryihleng.*.yaml
   gryihleng_double.*.yaml
   src/*
+  hamster_supplements/*
