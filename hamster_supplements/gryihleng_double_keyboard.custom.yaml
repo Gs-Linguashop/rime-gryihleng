@@ -352,19 +352,16 @@ keyboards:
               landscape:
                 percentage: 0.1
       - keys:
-          - action: shift
+          - action:
+              character:
+                char: "`"
             width:
               portrait:
                 percentage: 0.1
               landscape:
                 percentage: 0.13
-            swipe:
-              - action:
-                  character:
-                    char: "`"
-                display: false
-                processByRIME: true
-                direction: up
+            label: 查
+            processByRIME: true
           - action:
               character:
                 char: z
