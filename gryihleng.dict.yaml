@@ -160,7 +160,7 @@ use_preset_vocabulary: true
 㕯	n1ut
 㕯	n2ut
 㕯	nAot
-㕰	h2uk
+㕰	mh2uk
 㖃	g1o
 㖃	g2o
 㖃	h1o
@@ -446,7 +446,7 @@ use_preset_vocabulary: true
 㠯	lAy
 㠴	nAit
 㠴	nAyt
-㠵	mh1ang
+㠵	hw1ang
 㠷	k1yp
 㠸	pAa
 㠸	pBa
@@ -973,7 +973,7 @@ use_preset_vocabulary: true
 㱀	chBy
 㱂	kh1ang
 㱃	qBym
-㱄	h1yk
+㱄	mh1yk
 㱇	sByk
 㱊	qAu
 㱊	qBu
@@ -1096,7 +1096,6 @@ use_preset_vocabulary: true
 㵣	kh1at
 㵧	k1at
 㵨	phAek
-㵩	lAat
 㵩	lAet
 㵺	ph2e
 㵻	nghAu
@@ -2120,7 +2119,7 @@ use_preset_vocabulary: true
 䐜	thAin
 䐝	s1oi
 䐞	nAeuk
-䐠	h1ang
+䐠	mh1ang
 䐢	cBu
 䐢	chBo
 䐣	s1un
@@ -2492,7 +2491,6 @@ use_preset_vocabulary: true
 䚝	z1ut
 䚠	g1un
 䚡	s1y
-䚢	lhBat
 䚢	lhBet
 䚣	d4e
 䚣	t4e
@@ -2566,11 +2564,11 @@ use_preset_vocabulary: true
 䜐	hAoi
 䜑	q1a
 䜒	q1uk
-䜕	h2at
 䜕	h2i
 䜕	h2y
 䜕	h2yi
 䜕	m2at
+䜕	mh2at
 䜙	ng1ym
 䜚	d1yp
 䜚	l1yp
@@ -2764,6 +2762,7 @@ use_preset_vocabulary: true
 䠯	lAeuk
 䠰	gBon
 䠵	bAo
+䠶	mlAia
 䠷	lh4eu
 䠸	khw2a
 䠻	khAung
@@ -3711,10 +3710,10 @@ use_preset_vocabulary: true
 乒	pBeng # 後起
 乓	pBeng # 後起
 乖	k2ui
-乗	iaAyng # 船母三開r源無法生成
 乗	lAyng # 船母三開r源無法生成
-乘	iaAyng # 船母三開r源無法生成
+乗	mlAyng # 船母三開r源無法生成
 乘	lAyng # 船母三開r源無法生成
+乘	mlAyng # 船母三開r源無法生成
 乙	qBit
 乙	qByt
 乚	qAyn
@@ -3873,8 +3872,8 @@ use_preset_vocabulary: true
 伺	sAy
 伻	ph2eng
 似	slAy
-伽	羣Aai # 外語轉寫字
-伽	羣Aia # 外語轉寫字
+伽	gAai # 外語轉寫字
+伽	gAia # 外語轉寫字
 伾	phBy
 伿	lAai
 伿	lAe
@@ -4621,8 +4620,8 @@ use_preset_vocabulary: true
 剥	p2ok
 剥	p2uk
 剨	hw2ek
-剩	iaAyng # 船母三開r源無法生成
 剩	lAyng # 船母三開r源無法生成
+剩	mlAyng # 船母三開r源無法生成
 剪	cAen
 剫	d1ak
 剫	l1ak
@@ -4632,8 +4631,8 @@ use_preset_vocabulary: true
 剮	k2oi
 副	phAyk
 副	phByk
-剰	iaAyng # 船母三開r源無法生成
 剰	lAyng # 船母三開r源無法生成
+剰	mlAyng # 船母三開r源無法生成
 割	k1at
 剴	k1yi
 剴	ng1yi
@@ -4726,8 +4725,8 @@ use_preset_vocabulary: true
 勒	r1yk
 勔	mAen
 動	d1ong
-勗	hAok
-勗	hBok
+勗	mhAok
+勗	mhBok
 勘	khl1ym
 務	mAok
 勛	hAun
@@ -5500,8 +5499,8 @@ use_preset_vocabulary: true
 嘎	k2it
 嘎	k2yt
 嘏	k2a
-嘐	h2u
 嘐	k2iu
+嘐	mh2iu
 嘑	h1a
 嘒	hw4et
 嘓	kw2yk
@@ -5542,7 +5541,7 @@ use_preset_vocabulary: true
 嘽	thAan
 嘾	l1ym
 嘿	h1yi # 後起象hl詞
-嘿	h1yk
+嘿	mh1yk
 噁	q1a
 噂	c1un
 噅	hBoi
@@ -5753,12 +5752,14 @@ use_preset_vocabulary: true
 地	l4e # 特殊，無法生成
 地	tAy # 助詞假借
 圱	ch4in
+圳	tAun
 圻	gAyi
 圻	ng1yn
 圻	ngAyn
 圼	n1yt
 圼	n4et
 圼	n4it
+圾	ngByp
 圿	k2it
 址	tAy
 坁	tAe
@@ -5772,7 +5773,9 @@ use_preset_vocabulary: true
 坊	pAang
 坋	bAyn
 坌	b1yn
+坍	nh1am
 坎	kh1ym
+坏	ph1y
 坐	z1oi
 坑	kh2ang
 坒	bAi
@@ -5804,6 +5807,8 @@ use_preset_vocabulary: true
 坻	dBi
 坻	t4i
 坻	tAe
+坼	lh2ak
+坼	th2ak
 坿	bAo
 垂	dAoi
 垃	r1yp
@@ -5834,6 +5839,7 @@ use_preset_vocabulary: true
 垢	k2o
 垣	wAan
 垤	d4it
+垮	khw2a
 垷	g4en
 垷	k4en
 垸	g1on
@@ -5858,9 +5864,11 @@ use_preset_vocabulary: true
 埐	cAym
 埐	zAym
 埒	rAot
+埔	ph1a
 埝	n4ep
 埝	t4im
 域	wByk
+埠	b1a
 埢	kBon
 埤	bAe
 埧	gAo
@@ -5963,6 +5971,7 @@ use_preset_vocabulary: true
 塈	hAyt
 塉	zAek
 塊	kh1ui
+塌	th1ap
 塎	lAong
 塏	kh1yi
 塐	s1a
@@ -5986,6 +5995,7 @@ use_preset_vocabulary: true
 塩	lAem
 填	d4in
 填	tBin
+塭	q1un
 塯	rAu
 塲	lhAang
 塵	dBin
@@ -6080,9 +6090,12 @@ use_preset_vocabulary: true
 壝	lAui
 壞	g2ui
 壞	k2ui
+壟	rAong
 壠	rAong
+壢	r4ek
 壣	rAin
 壤	nAang
+壩	p2ak
 士	zBy
 壬	nAym
 壯	cBang
@@ -6166,6 +6179,8 @@ use_preset_vocabulary: true
 奃	t4i
 奄	qBam
 奅	ph2u
+奇	gBai
+奇	kBai
 奈	n1ai
 奈	n1at
 奉	bAong
@@ -6181,6 +6196,8 @@ use_preset_vocabulary: true
 奓	t2ai
 奔	p1yn
 奕	lAek
+套	th1au # 未紀錄l母可能性
+套	th1u # 未紀錄l母可能性
 奘	z1ang
 奚	g4e
 奜	phAyi
@@ -6203,6 +6220,8 @@ use_preset_vocabulary: true
 奣	qw2ang
 奤	ph1ak
 奧	q1uk
+奩	rAam
+奩	rAem
 奪	d1ot
 奪	l1ot
 奫	qwBin
@@ -6216,6 +6235,8 @@ use_preset_vocabulary: true
 女	nBa
 奴	n1a
 奵	t4eng
+奶	n1y
+奶	n1yi
 奸	k1an
 她	lh1ai # 代詞後起假借
 奻	n2on
@@ -6238,6 +6259,8 @@ use_preset_vocabulary: true
 妋	qAu
 妋	qBu
 妌	zAeng
+妍	ng4en
+妍	ng4in
 妎	g1at
 妎	g4it
 妐	klAong
@@ -6257,6 +6280,7 @@ use_preset_vocabulary: true
 妜	qw4it
 妜	qwAet
 妝	cBang
+妞	nBu
 妠	n1ym
 妠	n1yp
 妠	n2ot
@@ -6271,6 +6295,7 @@ use_preset_vocabulary: true
 妨	phAang
 妬	t1ak
 妭	b1at
+妮	nBi
 妯	lBiuk
 妯	lhBu
 妲	t1at
@@ -6341,6 +6366,8 @@ use_preset_vocabulary: true
 姶	q1yp
 姷	wAy
 姷	wBy
+姸	ng4en
+姸	ng4in
 姺	s1yn
 姻	qAin
 姼	dAai
@@ -6400,12 +6427,14 @@ use_preset_vocabulary: true
 娸	khBy
 娺	t2ut
 娺	tBui
+娼	thAang
 娽	r1ok
 娽	rAok
 娾	ng2i
 娾	ng2y
 娾	ng2yi
 娿	q1ai
+婀	q1ai
 婁	r1o
 婁	rAo
 婄	b1o
@@ -6415,6 +6444,8 @@ use_preset_vocabulary: true
 婄	ph2o
 婆	b1ai
 婉	qAon
+婊	pBau
+婊	pBeu
 婌	dAuk
 婍	khBai
 婎	hwAi
@@ -6449,6 +6480,8 @@ use_preset_vocabulary: true
 婭	q2a
 婱	g4en
 婱	g4in
+婷	d4eng
+婷	l4eng
 婸	l1ang
 婹	q4eu
 婺	mAok
@@ -6457,6 +6490,8 @@ use_preset_vocabulary: true
 婼	nAia
 婼	nhBak
 婽	k2a
+婿	s4e
+婿	s4i
 媀	ngAo
 媁	qAui
 媁	wAyi
@@ -6505,12 +6540,15 @@ use_preset_vocabulary: true
 媱	lAau
 媱	lAeu
 媲	ph4i
+媳	sAyk
 媵	lAyng
 媷	nAok
 媸	thAy
 媺	mByi
 媻	b1ai
 媻	b1an
+媼	q1au
+媼	q1u
 媽	m1a
 媾	k1o
 媾	k2o
@@ -6528,6 +6566,7 @@ use_preset_vocabulary: true
 嫖	phAau
 嫖	phAeu
 嫗	qAo
+嫘	rAui
 嫙	slAon
 嫚	m2an
 嫛	q4e
@@ -6543,6 +6582,7 @@ use_preset_vocabulary: true
 嫣	qAan
 嫣	qBan
 嫥	tAon
+嫦	dAang
 嫧	c2ek
 嫧	ch2ek
 嫧	chAek
@@ -6560,6 +6600,7 @@ use_preset_vocabulary: true
 嫸	tAan
 嫸	tAen
 嫺	g2en
+嫻	g2en
 嫼	q2et
 嫼	q2it
 嫼	q2yt
@@ -6597,7 +6638,9 @@ use_preset_vocabulary: true
 嬜	h1am
 嬜	hBym
 嬜	q1ym
+嬝	n4eu
 嬣	n2eng
+嬤	m1ai
 嬥	l2euk
 嬥	l4eu
 嬥	l4euk
@@ -6615,6 +6658,7 @@ use_preset_vocabulary: true
 嬳	qw1ak
 嬳	qwAak
 嬴	lAeng
+嬸	stAym
 嬹	hAyng
 嬹	hByng
 嬻	l1ok
@@ -6688,6 +6732,10 @@ use_preset_vocabulary: true
 孺	nAo
 孼	ngBat
 孼	ngBet
+孽	ngBat
+孽	ngBet
+孿	rhAon
+孿	s2on
 宀	mAen
 宁	dBa
 宂	nAong
@@ -6752,6 +6800,8 @@ use_preset_vocabulary: true
 寅	lAyi
 寅	lAyn
 密	mBit
+寇	kh1o
+寇	kh2o
 寋	gAan
 富	pAyk
 寍	n4eng
@@ -6773,6 +6823,7 @@ use_preset_vocabulary: true
 寤	ng1a
 寥	r4iu
 寥	r4iuk
+實	mlAit
 寧	n4eng
 寨	sl1yk
 寨	z2at
@@ -6801,6 +6852,8 @@ use_preset_vocabulary: true
 尃	phBa
 射	lAek
 射	lAia
+射	mlAek
+射	mlAia
 將	cAang
 專	tAon
 尉	qAut
@@ -7149,7 +7202,7 @@ use_preset_vocabulary: true
 巖	ng2am
 巘	ngAan
 巘	ngBan
-巛	kh1un
+巛	khl1un
 巜	k1ot
 川	thAon
 州	tAu
@@ -8678,6 +8731,7 @@ use_preset_vocabulary: true
 揱	sAeu
 揲	l4ep
 揲	lAep
+揲	mlAet
 揳	st4et
 援	wAan
 援	wBan
@@ -9243,6 +9297,7 @@ use_preset_vocabulary: true
 晦	mh1y
 晧	g1u
 晨	dAyn
+晨	mlAin
 晪	th4in
 晫	t2euk
 晫	th2euk
@@ -11207,7 +11262,6 @@ use_preset_vocabulary: true
 溠	c2ai
 溠	ch1ai
 溢	lAit
-溢	lAyt
 溣	r1un
 溥	p1ak
 溥	ph1a
@@ -11375,6 +11429,8 @@ use_preset_vocabulary: true
 潣	m1y
 潣	m1yi
 潣	mByn
+潣	ml1y
+潣	ml1yi
 潤	nAun
 潦	r1au
 潨	tAung
@@ -11394,7 +11450,7 @@ use_preset_vocabulary: true
 潯	slAym
 潰	g1ui
 潲	s2eu
-潶	h1yk
+潶	mh1yk
 潷	pBit
 潷	pByt
 潸	s2an
@@ -11922,6 +11978,8 @@ use_preset_vocabulary: true
 燘	m1yi
 燘	mh1y
 燘	mh1yi
+燘	ml1y
+燘	ml1yi
 燠	q1au
 燠	q1u
 燠	q1uk
@@ -13145,6 +13203,7 @@ use_preset_vocabulary: true
 眊	m2uk
 看	kh1an
 眎	dAi
+眎	mlAi
 眏	q1ang
 眐	tAeng
 眑	q2iu
@@ -13290,7 +13349,7 @@ use_preset_vocabulary: true
 瞉	kh2ok
 瞋	thAin
 瞍	s4iu
-瞎	h2at
+瞎	mh2at
 瞐	m2uk
 瞑	m4en
 瞑	m4eng
@@ -13626,6 +13685,7 @@ use_preset_vocabulary: true
 礹	ngAam
 示	gAai
 示	gAe
+示	mlAi
 礼	r4e
 礼	r4i
 礽	nAyng
@@ -13654,6 +13714,7 @@ use_preset_vocabulary: true
 祚	z1ak
 祜	g1a
 祝	tAuk
+神	mlAin
 祟	sAut
 祠	slAy
 祡	z2e
@@ -13752,8 +13813,8 @@ use_preset_vocabulary: true
 秌	chAu
 种	dBung
 秎	bAyn
-秏	h1au
 秏	h1ui
+秏	mh1au
 科	kh1oi
 秒	mAau
 秒	mAeu
@@ -13974,6 +14035,8 @@ use_preset_vocabulary: true
 立	rAyp
 竑	gw2yng
 竑	w2yng
+竒	gBai
+竒	kBai
 竘	kh1o
 竘	kh2o
 竘	khAo
@@ -14346,6 +14409,8 @@ use_preset_vocabulary: true
 籦	tAong
 籧	gAa
 籧	gBa
+籨	rAam
+籨	rAem
 籩	p4en
 籩	p4in
 籫	c1on
@@ -15245,7 +15310,7 @@ use_preset_vocabulary: true
 肑	p2euk
 肑	t4euk
 肒	g1on
-肓	mh1ang
+肓	hw1ang
 肔	lAai
 肕	nAyn
 肖	sAeu
@@ -15640,12 +15705,16 @@ use_preset_vocabulary: true
 舉	kBa
 舊	gAu
 舊	gBu
-舋	hByn
+舋	mhByn
 舌	g2ot
+舌	mlAet
 舍	lhAia
+舐	mlAe
 舑	nAam
 舑	nh1am
 舒	lhAa
+舓	mlAai
+舓	mlAe
 舕	lh1am
 舚	th4em
 舛	thAon
@@ -15866,9 +15935,9 @@ use_preset_vocabulary: true
 茂	m1o
 茂	m2o
 范	bAam
+茄	gAai # 外語轉寫字
+茄	gAia # 外語轉寫字
 茄	k2ai
-茄	羣Aai # 外語轉寫字
-茄	羣Aia # 外語轉寫字
 茅	dBa
 茅	lBa
 茅	m2u
@@ -15966,6 +16035,7 @@ use_preset_vocabulary: true
 荻	l4ek
 荼	l1a
 荼	l2a
+荼	mlAia
 荽	sAui
 荾	sAui
 莁	mAa
@@ -16719,8 +16789,8 @@ use_preset_vocabulary: true
 虔	gBan
 處	thAa
 虖	h1a
-虖	hwAa
-虖	hwBa
+虖	mhAa
+虖	mhBa
 虖	w1a
 虘	z1ai
 虙	bAyk
@@ -16767,6 +16837,7 @@ use_preset_vocabulary: true
 虴	t2ak
 虵	lAai
 虵	lAia
+虵	mlAia
 虶	qwAa
 虶	qwBa
 虷	g1an
@@ -16850,6 +16921,7 @@ use_preset_vocabulary: true
 蛆	chAa
 蛇	lAai
 蛇	lh1ai
+蛇	mlAia
 蛈	lh4it
 蛉	r4eng
 蛑	mAu
@@ -16875,6 +16947,7 @@ use_preset_vocabulary: true
 蛢	b4eng
 蛣	khAit
 蛤	k1yp
+蛥	mlAet
 蛦	lAi
 蛧	mAang
 蛨	m2ak
@@ -17256,7 +17329,7 @@ use_preset_vocabulary: true
 蠾	dBok
 蠾	tAok
 血	hw4it
-衁	mh1ang
+衁	hw1ang
 衃	ph1y
 衃	phAy
 衄	nAuk
@@ -17989,6 +18062,7 @@ use_preset_vocabulary: true
 諞	bBen
 諟	dAe
 諠	hAon
+諡	mlAit
 諢	ng1un
 諣	h2oi
 諣	hw2e
@@ -18058,6 +18132,7 @@ use_preset_vocabulary: true
 謗	p1ang
 謘	lBi
 謙	kh4em
+謚	mlAit
 謚	qAek
 講	k2ong
 講	k2ung
@@ -18218,7 +18293,7 @@ use_preset_vocabulary: true
 谾	h1ong
 谾	h2ong
 谿	kh4e
-豁	h1ot
+豁	mh1at
 豂	r4iu
 豃	h2am
 豄	l1ok
@@ -18358,6 +18433,7 @@ use_preset_vocabulary: true
 貣	lh1yk
 貤	lAai
 貤	lAi
+貤	mlAi
 貦	ng1on
 貧	bByn
 貨	ngh1oi
@@ -18369,6 +18445,7 @@ use_preset_vocabulary: true
 貯	tBa
 貰	lhAat
 貰	lhAet
+貰	mlAia
 貱	pBai
 貲	cAe
 貳	nAi
@@ -18468,6 +18545,7 @@ use_preset_vocabulary: true
 贔	bBy
 贔	bByi
 贕	l1ok
+贖	mlAok
 贙	gw4en
 贙	gw4in
 贙	w4en
@@ -19578,7 +19656,7 @@ use_preset_vocabulary: true
 醽	r4eng
 醿	mBai
 釀	nBang
-釁	hByn
+釁	mhByn
 釂	cAauk
 釂	cAeuk
 釃	rhAe
@@ -19947,7 +20025,6 @@ use_preset_vocabulary: true
 鎩	sBet
 鎬	g1au
 鎰	lAit
-鎰	lAyt
 鏀	r1a
 鏂	q1o
 鏂	q2o
@@ -20602,6 +20679,7 @@ use_preset_vocabulary: true
 鞦	chAu
 鞧	chAu
 鞨	g1at
+鞨	mlAet
 鞪	m1ok
 鞪	mAu
 鞪	mBu
@@ -22026,6 +22104,8 @@ use_preset_vocabulary: true
 麚	k2a
 麛	m4e
 麜	rAit
+麝	mlAek
+麝	mlAia
 麞	tAang
 麟	rAin
 麠	kBang
@@ -22076,7 +22156,7 @@ use_preset_vocabulary: true
 黐	lhBai
 黐	rAai
 黐	thBai
-黑	h1yk
+黑	mh1yk
 黓	lAyk
 黔	gBam
 黔	gBym
@@ -22148,7 +22228,7 @@ use_preset_vocabulary: true
 鼉	d1ai
 鼊	p4ek
 鼎	t4eng
-鼏	m4ek
+鼏	ml4ek
 鼐	n1y
 鼐	n1yi
 鼒	cAy
@@ -22267,7 +22347,6 @@ use_preset_vocabulary: true
 齶	ng1ak
 齷	q2ok
 齸	lAit
-齸	lAyt
 齸	qAek
 齹	z1ai
 齹	zBai
