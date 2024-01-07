@@ -4,7 +4,7 @@
 schema:
   schema_id: gryihleng
   name: "諧聲全拼"
-  version: "2024.01.06"
+  version: "2024.01.07"
   author:
     - 亓 <ziqiphyzhou@gmail.com>
   dependencies:
@@ -50,7 +50,7 @@ speller:
   algebra: # do not change the processing order 
     - xform/ng/v/ # for convenience 
     - xform/(?<!\w)h/x/ # for convenience 
-    - derive/(ghl|ml)/l/ # 省碼hl
+    - derive/(dl|ml)/l/ # 省碼l
     # 合口色彩的來源模糊韻
     - derive/([pb]h?[AB124])uv/$1ym/
     - derive/([skgxqv]h?)([AB124])u([itn])/$1w$2y$3/
@@ -77,7 +77,7 @@ reverse_lookup:
   comment_format:
     - xform/ng/ŋ/
     - xform/q/ʔ/
-    - xform/gh/ɦ/
+    - xform/dl/ɦl/
     - xform/(kh?|g|h)l/$1ˡ/
     - xform/([pmkŋwlrtnc])h/$1ʰ/
     - xform/([^s])w/$1ʷ/

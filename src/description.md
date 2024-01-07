@@ -18,7 +18,7 @@
 | 光 | 光kw | 虧khw | 狂gw |
 | 淵 | 淵qw |
 | 牛 |  |  | 牛ngw |
-| 以 |  | 它lh | 以l | 似sl | 旋ml / 乘ghl
+| 以 |  | 它lh | 以l | 似sl | 旋ml / 乘dl
 | 來 |  | 數rh | 來r |
 | 端 | 端t | 土th | 定d | 適st |
 | 泥 |  | 灘nh | 泥n |

@@ -4,7 +4,7 @@
 schema:
   schema_id: gryihleng_double
   name: "諧聲雙拼"
-  version: "2024.01.06"
+  version: "2024.01.07"
   author:
     - 亓 <ziqiphyzhou@gmail.com>
   dependencies:
@@ -88,7 +88,7 @@ speller:
     - xform/e/V/
     - xform/i/I/
     #聲母
-    - xform/(m|gh)l\d/I/
+    - xform/(m|d)l\d/I/
     - xform/[pb]h?1/Y/
     - xform/[pb]h?[35]/H/
     - xform/[pb]h?2/N/
@@ -185,7 +185,7 @@ reverse_lookup:
   comment_format:
     - xform/ng/ŋ/
     - xform/q/ʔ/
-    - xform/gh/ɦ/
+    - xform/dl/ɦl/
     - xform/(kh?|g|h)l/$1ˡ/
     - xform/([pmkŋwlrtnc])h/$1ʰ/
     - xform/([^s])w/$1ʷ/
