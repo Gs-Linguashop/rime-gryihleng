@@ -15,7 +15,7 @@
 
 在iOS上使用[倉hamster](https://github.com/imfuxiao/Hamster)App部署諧聲雙拼輸入法時，可以部署[特製schema](gryihleng_double_hamster.schema.yaml)並安裝[專用鍵盤](hamster_supplements/clear_keyboard.custom.yaml)和[高對比配色](hamster_supplements/hamster_color_schemas.custom.yaml)（據說hamster很快更新可以調整字號，就不需要高對比配色也能看清鍵盤了）；鍵盤文件可以在設置中導入，配色文件直接放至Rime文件夾部署即可，新手請參考[倉wiki](https://github.com/imfuxiao/Hamster/wiki)
 
-配套iOS的鍵盤保留了上下劃常用數字和標點，請劃一劃試試；上劃Space切換英文，左右劃任意字母可以實現首字母簡寫；使用反查功能請確認反查用的字典也已安裝
+配套iOS的鍵盤保留了上下劃常用數字和標點，請劃一劃試試；上劃Space切換英文，橫向劃動字母可以實現首字母拼寫；使用反查功能請確認反查用的字典也已安裝
 
 ![iOS倉輸入法截圖](hamster_supplements/screenshot.jpeg)
 
