@@ -26,13 +26,13 @@ keyboards:
                 direction: down
               - action:
                   character:
-                    char: "q;"
+                    char: Q
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "q;"
+                    char: Q
                 display: false
                 processByRIME: true
                 direction: right
@@ -58,13 +58,13 @@ keyboards:
                 direction: down
               - action:
                   character:
-                    char: "w;"
+                    char: W
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "w;"
+                    char: W
                 display: false
                 processByRIME: true
                 direction: right
@@ -90,13 +90,13 @@ keyboards:
                 direction: down
               - action:
                   character:
-                    char: "e;"
+                    char: E
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "e;"
+                    char: E
                 display: false
                 processByRIME: true
                 direction: right
@@ -122,13 +122,13 @@ keyboards:
                 direction: down
               - action:
                   character:
-                    char: "r;"
+                    char: R
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "r;"
+                    char: R
                 display: false
                 processByRIME: true
                 direction: right
@@ -154,13 +154,13 @@ keyboards:
                 direction: down
               - action:
                   character:
-                    char: "t;"
+                    char: T
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "t;"
+                    char: T
                 display: false
                 processByRIME: true
                 direction: right
@@ -186,13 +186,13 @@ keyboards:
                 direction: down
               - action:
                   character:
-                    char: "y;"
+                    char: Y
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "y;"
+                    char: Y
                 display: false
                 processByRIME: true
                 direction: right
@@ -218,13 +218,13 @@ keyboards:
                 direction: down
               - action:
                   character:
-                    char: "u;"
+                    char: U
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "u;"
+                    char: U
                 display: false
                 processByRIME: true
                 direction: right
@@ -250,13 +250,13 @@ keyboards:
                 direction: down
               - action:
                   character:
-                    char: "i;"
+                    char: I
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "i;"
+                    char: I
                 display: false
                 processByRIME: true
                 direction: right
@@ -282,13 +282,13 @@ keyboards:
                 direction: down
               - action:
                   character:
-                    char: "o;"
+                    char: O
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "o;"
+                    char: O
                 display: false
                 processByRIME: true
                 direction: right
@@ -314,13 +314,13 @@ keyboards:
                 direction: down
               - action:
                   character:
-                    char: "p;"
+                    char: P
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "p;"
+                    char: P
                 display: false
                 processByRIME: true
                 direction: right
@@ -344,13 +344,13 @@ keyboards:
                 direction: up
               - action:
                   character:
-                    char: "a;"
+                    char: A
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "a;"
+                    char: A
                 display: false
                 processByRIME: true
                 direction: right
@@ -370,13 +370,13 @@ keyboards:
                 direction: up
               - action:
                   character:
-                    char: "s;"
+                    char: S
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "s;"
+                    char: S
                 display: false
                 processByRIME: true
                 direction: right
@@ -396,13 +396,13 @@ keyboards:
                 direction: up
               - action:
                   character:
-                    char: "d;"
+                    char: D
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "d;"
+                    char: D
                 display: false
                 processByRIME: true
                 direction: right
@@ -422,13 +422,13 @@ keyboards:
                 direction: up
               - action:
                   character:
-                    char: "f;"
+                    char: F
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "f;"
+                    char: F
                 display: false
                 processByRIME: true
                 direction: right
@@ -448,13 +448,13 @@ keyboards:
                 direction: up
               - action:
                   character:
-                    char: "g;"
+                    char: G
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "g;"
+                    char: G
                 display: false
                 processByRIME: true
                 direction: right
@@ -474,13 +474,13 @@ keyboards:
                 direction: up
               - action:
                   character:
-                    char: "h;"
+                    char: H
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "h;"
+                    char: H
                 display: false
                 processByRIME: true
                 direction: right
@@ -500,13 +500,13 @@ keyboards:
                 direction: up
               - action:
                   character:
-                    char: "j;"
+                    char: J
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "j;"
+                    char: J
                 display: false
                 processByRIME: true
                 direction: right
@@ -532,13 +532,13 @@ keyboards:
                 direction: down
               - action:
                   character:
-                    char: "k;"
+                    char: K
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "k;"
+                    char: K
                 display: false
                 processByRIME: true
                 direction: right
@@ -564,13 +564,13 @@ keyboards:
                 direction: down
               - action:
                   character:
-                    char: "l;"
+                    char: L
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "l;"
+                    char: L
                 display: false
                 processByRIME: true
                 direction: right
@@ -601,13 +601,13 @@ keyboards:
                 direction: up
               - action:
                   character:
-                    char: "z;"
+                    char: Z
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "z;"
+                    char: Z
                 display: false
                 processByRIME: true
                 direction: right
@@ -627,13 +627,13 @@ keyboards:
                 direction: up
               - action:
                   character:
-                    char: "x;"
+                    char: X
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "x;"
+                    char: X
                 display: false
                 processByRIME: true
                 direction: right
@@ -653,13 +653,13 @@ keyboards:
                 direction: up
               - action:
                   character:
-                    char: "c;"
+                    char: C
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "c;"
+                    char: C
                 display: false
                 processByRIME: true
                 direction: right
@@ -679,13 +679,13 @@ keyboards:
                 direction: up
               - action:
                   character:
-                    char: "v;"
+                    char: V
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "v;"
+                    char: V
                 display: false
                 processByRIME: true
                 direction: right
@@ -705,13 +705,13 @@ keyboards:
                 direction: up
               - action:
                   character:
-                    char: "b;"
+                    char: B
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "b;"
+                    char: B
                 display: false
                 processByRIME: true
                 direction: right
@@ -731,13 +731,13 @@ keyboards:
                 direction: up
               - action:
                   character:
-                    char: "n;"
+                    char: N
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "n;"
+                    char: N
                 display: false
                 processByRIME: true
                 direction: right
@@ -763,13 +763,13 @@ keyboards:
                 direction: down
               - action:
                   character:
-                    char: "m;"
+                    char: M
                 display: false
                 processByRIME: true
                 direction: left
               - action:
                   character:
-                    char: "m;"
+                    char: M
                 display: false
                 processByRIME: true
                 direction: right
