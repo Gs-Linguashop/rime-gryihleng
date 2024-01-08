@@ -206,7 +206,8 @@ keyboards:
                 direction: down
       - keys:
           - action: none
-            width: available
+            width:
+              percentage: 0.05
           - action:
               character:
                 char: a
@@ -347,19 +348,13 @@ keyboards:
                 direction: down
           - action: none
             width:
-              portrait:
-                percentage: 0.05
-              landscape:
-                percentage: 0.1
+              percentage: 0.05
       - keys:
           - action:
               character:
                 char: "`"
             width:
-              portrait:
-                percentage: 0.1
-              landscape:
-                percentage: 0.13
+              percentage: 0.1
             label: 查
             processByRIME: true
           - action:
@@ -467,7 +462,8 @@ keyboards:
                 processByRIME: false
                 direction: down
           - action: backspace
-            width: available
+            width:
+              percentage: 0.2
             swipe:
               - direction: left
                 action: { shortcutCommand: "#重输" }
