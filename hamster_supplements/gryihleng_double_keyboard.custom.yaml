@@ -24,6 +24,18 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: down
+              - action:
+                  character:
+                    char: "q;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "q;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: w
@@ -44,6 +56,18 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: down
+              - action:
+                  character:
+                    char: "w;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "w;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: e
@@ -64,6 +88,18 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: down
+              - action:
+                  character:
+                    char: "e;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "e;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: r
@@ -84,6 +120,18 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: down
+              - action:
+                  character:
+                    char: "r;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "r;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: t
@@ -104,6 +152,18 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: down
+              - action:
+                  character:
+                    char: "t;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "t;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: y
@@ -124,6 +184,18 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: down
+              - action:
+                  character:
+                    char: "y;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "y;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: u
@@ -144,6 +216,18 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: down
+              - action:
+                  character:
+                    char: "u;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "u;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: i
@@ -164,6 +248,18 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: down
+              - action:
+                  character:
+                    char: "i;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "i;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: o
@@ -184,6 +280,18 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: down
+              - action:
+                  character:
+                    char: "o;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "o;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: p
@@ -204,6 +312,18 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: down
+              - action:
+                  character:
+                    char: "p;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "p;"
+                display: false
+                processByRIME: true
+                direction: right
       - keys:
           - action: none
             width:
@@ -222,6 +342,18 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
+              - action:
+                  character:
+                    char: "a;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "a;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: s
@@ -236,6 +368,18 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
+              - action:
+                  character:
+                    char: "s;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "s;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: d
@@ -250,6 +394,18 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
+              - action:
+                  character:
+                    char: "d;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "d;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: f
@@ -264,6 +420,18 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
+              - action:
+                  character:
+                    char: "f;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "f;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: g
@@ -278,6 +446,18 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
+              - action:
+                  character:
+                    char: "g;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "g;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: h
@@ -292,6 +472,18 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
+              - action:
+                  character:
+                    char: "h;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "h;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: j
@@ -306,6 +498,18 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
+              - action:
+                  character:
+                    char: "j;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "j;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: k
@@ -326,6 +530,18 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: down
+              - action:
+                  character:
+                    char: "k;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "k;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: l
@@ -346,6 +562,18 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: down
+              - action:
+                  character:
+                    char: "l;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "l;"
+                display: false
+                processByRIME: true
+                direction: right
           - action: none
             width:
               percentage: 0.05
@@ -371,6 +599,18 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
+              - action:
+                  character:
+                    char: "z;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "z;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: x
@@ -385,6 +625,18 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
+              - action:
+                  character:
+                    char: "x;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "x;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: c
@@ -399,6 +651,18 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
+              - action:
+                  character:
+                    char: "c;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "c;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: v
@@ -413,6 +677,18 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
+              - action:
+                  character:
+                    char: "v;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "v;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: b
@@ -427,6 +703,18 @@ keyboards:
                 display: true
                 processByRIME: false
                 direction: up
+              - action:
+                  character:
+                    char: "b;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "b;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: n
@@ -441,6 +729,18 @@ keyboards:
                 display: true
                 processByRIME: false
                 direction: up
+              - action:
+                  character:
+                    char: "n;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "n;"
+                display: false
+                processByRIME: true
+                direction: right
           - action:
               character:
                 char: m
@@ -461,6 +761,18 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: down
+              - action:
+                  character:
+                    char: "m;"
+                display: false
+                processByRIME: true
+                direction: left
+              - action:
+                  character:
+                    char: "m;"
+                display: false
+                processByRIME: true
+                direction: right
           - action: backspace
             width:
               percentage: 0.2
@@ -471,16 +783,10 @@ keyboards:
           - action:
               keyboardType: classifySymbolic
             width:
-              percentage: 0.2
-          - action:
-              character:
-                char: ;
-            width:
-              percentage: 0.1
-            label: " "
+              percentage: 0.25
           - action: space
             width:
-              percentage: 0.4
+              percentage: 0.5
             swipe:
               - action:
                   keyboardType: alphabetic
@@ -491,15 +797,9 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: right
-          - action:
-              character:
-                char: ;
-            width:
-              percentage: 0.1
-            label: " "
           - action: enter
             width:
-              percentage: 0.2
+              percentage: 0.25
     buttonInsets:
       left: 3
       bottom: 4
