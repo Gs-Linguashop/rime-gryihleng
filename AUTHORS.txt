@@ -1,6 +1,5 @@
 
 亓 (Ziqi Zhou) <ziqiphyzhou@gmail.com> : (GPLv3)
-  gryihleng.*.yaml
-  gryihleng_double.*.yaml
+  gryihleng*.yaml
   src/*
   hamster_supplements/*
