@@ -467,11 +467,17 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: ""
+                    char: "-"
                 label: AP
                 display: true
-                processByRIME: true
+                processByRIME: false
                 direction: up
+              - action:
+                  character:
+                    char: "_"
+                display: false
+                processByRIME: false
+                direction: down
               - action:
                   character:
                     char: H
@@ -493,11 +499,17 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: ""
+                    char: "+"
                 label: AT
                 display: true
-                processByRIME: true
+                processByRIME: false
                 direction: up
+              - action:
+                  character:
+                    char: "="
+                display: false
+                processByRIME: false
+                direction: down
               - action:
                   character:
                     char: J
