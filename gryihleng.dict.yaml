@@ -3,7 +3,7 @@
 
 ---
 name: "gryihleng"
-version: "2024.01.07"
+version: "2024.01.12"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -5018,6 +5018,7 @@ use_preset_vocabulary: true
 吼	h2o
 吾	ng1a
 吾	ng2a
+呀	lAa
 呀	ng2a
 呀	ngh2a
 呁	kwAin
@@ -5032,6 +5033,7 @@ use_preset_vocabulary: true
 呐	nBot
 呝	q2ek
 呞	lhAy
+呢	nAy
 呢	nBi
 呣	m1o
 呣	m2o
@@ -5108,7 +5110,7 @@ use_preset_vocabulary: true
 咥	thBit
 咦	hAi
 咨	cAi
-咪	m4i
+咪	mAi
 咫	tAe
 咬	k2eu
 咬	q2eu
@@ -5118,7 +5120,7 @@ use_preset_vocabulary: true
 咮	tBo
 咮	tBu
 咯	r1ak
-咯	r1o
+咯	rAo
 咰	sBut
 咱	c1am
 咱	c1ym
@@ -5154,9 +5156,11 @@ use_preset_vocabulary: true
 哆	thAy
 哇	q2e
 哇	q2oi
+哇	wAa
 哈	ng1yp
 哉	c1y
 哊	wAyk
+哎	ng1ai
 哎	ng1at
 員	wAyn
 哢	r1ong
@@ -5167,6 +5171,7 @@ use_preset_vocabulary: true
 哨	chAau
 哨	chAeu
 哨	sAeu
+哩	rAi
 哩	rAy
 哪	n1ai
 哫	cAok
@@ -5247,8 +5252,8 @@ use_preset_vocabulary: true
 商	lhAang
 啇	t4ek
 啉	r1ym
-啊	q1a
 啊	q1ai
+啊	qAa
 啌	h2ong
 啍	d1un
 啎	ng1a
@@ -5288,10 +5293,10 @@ use_preset_vocabulary: true
 啣	g2am
 啤	bAe
 啤	pAe
-啦	r1a
 啦	r1yp
-啪	ph1a
+啦	rAa
 啪	ph2ak
+啪	phAa
 啺	l1ang
 啻	stAek
 啼	d4e
@@ -5386,8 +5391,8 @@ use_preset_vocabulary: true
 嗊	h1ong
 嗋	hAap
 嗌	qAek
-嗎	m1a
 嗎	m2a
+嗎	mAa
 嗑	g1ap
 嗑	k1ap
 嗒	t1yp
@@ -5413,7 +5418,7 @@ use_preset_vocabulary: true
 嗥	g1au
 嗥	g1u
 嗦	s1ak
-嗨	h1y
+嗨	h1ai
 嗨	h1yi
 嗨	mh1y
 嗯	q1yn
@@ -5463,8 +5468,9 @@ use_preset_vocabulary: true
 嘖	cBek
 嘖	z2ek
 嘗	dAang
-嘛	m1a
+嘛	m2a
 嘛	m2ai
+嘛	mAa
 嘟	t1a
 嘩	w2a
 嘪	m2e
@@ -5519,7 +5525,7 @@ use_preset_vocabulary: true
 噓	hAa
 噓	hBa
 噗	ph1ok
-噗	ph1u
+噗	phAu
 噙	gBym
 噞	ngBam
 噟	qAyng
@@ -5579,7 +5585,7 @@ use_preset_vocabulary: true
 嚏	t4it
 嚐	dAang
 嚕	r1a
-嚕	r1u
+嚕	rAu
 嚖	hw4et
 嚗	p2auk
 嚘	qAu
@@ -6487,6 +6493,7 @@ use_preset_vocabulary: true
 媼	q1au
 媼	q1u
 媽	m1a
+媽	mAa
 媾	k1o
 媾	k2o
 媿	kBui
@@ -10455,6 +10462,7 @@ use_preset_vocabulary: true
 欷	hAyi
 欸	ngh2y
 欸	q1y
+欸	qAe
 欹	qBai
 欺	khAy
 欺	khBy
@@ -12135,8 +12143,8 @@ use_preset_vocabulary: true
 父	bBa
 父	pAa
 父	pBa
-爸	b1a
 爸	p2a
+爸	pAa
 爹	d1ai
 爺	lAia
 爻	g2au
