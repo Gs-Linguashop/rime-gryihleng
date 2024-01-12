@@ -60,16 +60,18 @@ speller:
     # 介音
     - xform/[A14]//
     - xform/[B2]/r/
+    # 省碼
+    - derive/h// # 可省
     - xform/x/h/
+    - derive/q(?<!r)// # q省
     - abbrev/^([a-z]).+$/$1/ # 簡拼（首字母）
     - derive/v/ng/ # ng省碼v
-    - derive/q// # q省
 
 translator:
   dictionary: gryihleng
   preedit_format:
     - xform/y/ə/
-    - xform/ng/ŋ/
+    - xform/ng|v/ŋ/
 
 menu:
   page_size: 10
