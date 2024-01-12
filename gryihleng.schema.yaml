@@ -4,7 +4,7 @@
 schema:
   schema_id: gryihleng
   name: "諧聲全拼"
-  version: "2024.01.07"
+  version: "2024.01.12"
   author:
     - 亓 <ziqiphyzhou@gmail.com>
   dependencies:
@@ -53,6 +53,7 @@ speller:
     - derive/(dl|ml)/l/ # 省碼l
     # 合口色彩的來源模糊韻
     - derive/([pb]h?[AB124])uv/$1ym/
+    - derive/([pb]h?[AB124])uv/$1um/
     - derive/([skgxqv]h?)([AB124])u([itn])/$1w$2y$3/
     - derive/([skgxqv]h?)([AB124])o([itn])/$1w$2a$3/
     - derive/([skgxqv]h?)([AB124])([uo])([itn])/$1w$2$3$4/
@@ -62,6 +63,7 @@ speller:
     - xform/x/h/
     - abbrev/^([a-z]).+$/$1/ # 簡拼（首字母）
     - derive/v/ng/ # ng省碼v
+    - derive/q// # q省
 
 translator:
   dictionary: gryihleng
