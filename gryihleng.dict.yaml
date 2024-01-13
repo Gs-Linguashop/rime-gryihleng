@@ -3,7 +3,7 @@
 
 ---
 name: "gryihleng"
-version: "2024.01.12"
+version: "2024.01.13"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -5158,14 +5158,15 @@ use_preset_vocabulary: true
 哈	ng1yp
 哉	c1y
 哊	wAyk
-哎	ng1ai
-哎	ng1at
+哎	q1ai
+哎	q1at
 員	wAyn
 哢	r1ong
 哤	m2ong
 哤	m2ung
 哥	k1ai
 哦	ng1ai
+哦	qAo
 哨	chAau
 哨	chAeu
 哨	sAeu
@@ -5201,6 +5202,7 @@ use_preset_vocabulary: true
 唇	tAyn
 唈	q1yp
 唈	qByp
+唉	q1ai
 唉	q1y
 唉	q2y
 唊	kl4ep
@@ -5325,6 +5327,7 @@ use_preset_vocabulary: true
 喑	qBym
 喓	qAeu
 喔	q2ok
+喔	qAo
 喗	ngAun
 喘	thAon
 喙	hAot
@@ -10462,6 +10465,7 @@ use_preset_vocabulary: true
 欸	ngh2y
 欸	q1y
 欸	qAe
+欸	qAyi
 欹	qBai
 欺	khAy
 欺	khBy
@@ -18199,6 +18203,8 @@ use_preset_vocabulary: true
 誐	ng1ai
 誑	kwAang
 誒	nghAy
+誒	qAe
+誒	qAyi
 誓	dAat
 誔	d4eng
 誔	l4eng
