@@ -80,9 +80,9 @@ translator:
   preedit_format:
     - xform/y/ə/
     - xform/ng|v/ŋ/
-    - xform/ra/x/
-    - xform/re/f/
-    - xform/ry/j/
+    - xform/x/ra/
+    - xform/f/re/
+    - xform/j/ry/
 
 menu:
   page_size: 10
