@@ -4,7 +4,7 @@
 schema:
   schema_id: gryihleng_double
   name: "諧聲雙拼"
-  version: "2024.01.07"
+  version: "2024.01.15"
   author:
     - 亓 <ziqiphyzhou@gmail.com>
   dependencies:
@@ -103,18 +103,18 @@ speller:
     - xform/[skgxqv]?h?w1/W/
     - xform/[skgxqv]?h?w[35]/S/
     - xform/[skgxqv]?h?w2/X/
-    - xform/jh?3/I/
+    - xform/jh?\d/I/
     - xform/r\d/L/ # must preceed processing "t" and "s" 
-    - xform/[tdjr]h?1/U/
+    - xform/[td]h?1/U/
     - xform/[td]h?3/J/
-    - xform/[tdj]h?[25]/M/
+    - xform/[td]h?[25]/M/
     - xform/nh?\d/D/
     - xform/[cz]h?1/T/
     - xform/[cz]h?3/G/
     - xform/[cz]h?[25]/B/
     - xform/s[lt]?1/R/
     - xform/s[lt]?3/F/
-    - xform/[sr]h?[25]/V/
+    - xform/s[25]/V/
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|abcdefghijklmnopqrstuvwxyz|"
     - abbrev/^([a-z]).$/$1;/ # 簡拼（首字母）
 
@@ -174,7 +174,7 @@ translator:
     - xform/o/ƏK/
     - xform/l/AI/
     - xform/p/EK/
-    - xform/;//
+    - xform/;/-/
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZƏŊ|abcdefghijklmnopqrstuvwxyzəŋ|"
 
 menu:

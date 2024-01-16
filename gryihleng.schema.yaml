@@ -4,7 +4,7 @@
 schema:
   schema_id: gryihleng
   name: "諧聲全拼"
-  version: "2024.01.13"
+  version: "2024.01.15"
   author:
     - 亓 <ziqiphyzhou@gmail.com>
   dependencies:
@@ -62,16 +62,27 @@ speller:
     - xform/[B2]/r/
     # 省碼
     - derive/h// # 可省
-    - xform/x/h/
     - derive/q(?!r)// # q省
     - abbrev/^([a-z]).+$/$1/ # 簡拼（首字母）
+    - abbrev/^([pmkvltnc]h).+$/$1/ # 簡拼（首二字母）
+    - abbrev/^([kgxdm]h?l).+$/$1/ # 簡拼（首二字母）
+    - abbrev/^([xkgqv]h?w).+$/$1/ # 簡拼（首二字母）
+    - abbrev/^(s[wlt]).+$/$1/ # 簡拼（首二字母）
+    - abbrev/^([^aeiouy]+r).+$/$1/ # 簡拼（首二字母）
+    - xform/x/h/
     - derive/v/ng/ # ng省碼v
+    - derive/ra/x/ # q省
+    - derive/re/f/ # q省
+    - derive/ry/j/ # q省
 
 translator:
   dictionary: gryihleng
   preedit_format:
     - xform/y/ə/
     - xform/ng|v/ŋ/
+    - xform/ra/x/
+    - xform/re/f/
+    - xform/ry/j/
 
 menu:
   page_size: 10
