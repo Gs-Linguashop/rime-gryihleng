@@ -1,6 +1,6 @@
 customKeyStyles: {}
 keyboards:
-  - name: 諧聲雙拼
+  - name: 諧聲全拼
     isPrimary: true
     rows:
       - keys:
@@ -14,8 +14,7 @@ keyboards:
               - action:
                   character:
                     char: "1"
-                label: UŊ
-                display: true
+                display: false
                 processByRIME: false
                 direction: up
               - action:
@@ -41,13 +40,12 @@ keyboards:
                 char: w
             width:
               percentage: 0.1
-            label: W.
+            label: W
             swipe:
               - action:
                   character:
                     char: "2"
-                label: U
-                display: true
+                display: false
                 processByRIME: false
                 direction: up
               - action:
@@ -73,13 +71,12 @@ keyboards:
                 char: e
             width:
               percentage: 0.1
-            label: Ŋ
+            label: E
             swipe:
               - action:
                   character:
                     char: "3"
-                label: ƏN
-                display: true
+                display: false
                 processByRIME: false
                 direction: up
               - action:
@@ -105,13 +102,12 @@ keyboards:
                 char: r
             width:
               percentage: 0.1
-            label: S.
+            label: R
             swipe:
               - action:
                   character:
                     char: "4"
-                label: Ə
-                display: true
+                display: false
                 processByRIME: false
                 direction: up
               - action:
@@ -137,13 +133,12 @@ keyboards:
                 char: t
             width:
               percentage: 0.1
-            label: C.
+            label: T
             swipe:
               - action:
                   character:
                     char: "5"
-                label: ƏŊ
-                display: true
+                display: false
                 processByRIME: false
                 direction: up
               - action:
@@ -169,12 +164,11 @@ keyboards:
                 char: y
             width:
               percentage: 0.1
-            label: P.
+            label: Y
             swipe:
               - action:
                   character:
                     char: "6"
-                label: ƏP
                 display: true
                 processByRIME: false
                 direction: up
@@ -201,12 +195,11 @@ keyboards:
                 char: u
             width:
               percentage: 0.1
-            label: T.
+            label: U
             swipe:
               - action:
                   character:
                     char: "7"
-                label: ƏT
                 display: true
                 processByRIME: false
                 direction: up
@@ -233,12 +226,11 @@ keyboards:
                 char: i
             width:
               percentage: 0.1
-            label: L
+            label: I
             swipe:
               - action:
                   character:
                     char: "8"
-                label: I
                 display: true
                 processByRIME: false
                 direction: up
@@ -265,12 +257,11 @@ keyboards:
                 char: o
             width:
               percentage: 0.1
-            label: K.
+            label: O
             swipe:
               - action:
                   character:
                     char: "9"
-                label: ƏK
                 display: true
                 processByRIME: false
                 direction: up
@@ -297,12 +288,11 @@ keyboards:
                 char: p
             width:
               percentage: 0.1
-            label: Kr
+            label: P
             swipe:
               - action:
                   character:
                     char: "0"
-                label: EK
                 display: true
                 processByRIME: false
                 direction: up
@@ -333,15 +323,8 @@ keyboards:
                 char: a
             width:
               percentage: 0.1
-            label: M
+            label: A
             swipe:
-              - action:
-                  character:
-                    char: ""
-                label: OŊ
-                display: true
-                processByRIME: true
-                direction: up
               - action:
                   character:
                     char: A
@@ -359,15 +342,8 @@ keyboards:
                 char: s
             width:
               percentage: 0.1
-            label: W
+            label: S
             swipe:
-              - action:
-                  character:
-                    char: ""
-                label: O
-                display: true
-                processByRIME: true
-                direction: up
               - action:
                   character:
                     char: S
@@ -385,15 +361,8 @@ keyboards:
                 char: d
             width:
               percentage: 0.1
-            label: N
+            label: D
             swipe:
-              - action:
-                  character:
-                    char: ""
-                label: AN
-                display: true
-                processByRIME: true
-                direction: up
               - action:
                   character:
                     char: D
@@ -411,15 +380,8 @@ keyboards:
                 char: f
             width:
               percentage: 0.1
-            label: S
+            label: F
             swipe:
-              - action:
-                  character:
-                    char: ""
-                label: A
-                display: true
-                processByRIME: true
-                direction: up
               - action:
                   character:
                     char: F
@@ -437,15 +399,20 @@ keyboards:
                 char: g
             width:
               percentage: 0.1
-            label: C
+            label: G
             swipe:
               - action:
                   character:
-                    char: ""
-                label: AŊ
-                display: true
-                processByRIME: true
+                    char: "「"
+                display: false
+                processByRIME: false
                 direction: up
+              - action:
+                  character:
+                    char: "」"
+                display: false
+                processByRIME: false
+                direction: down
               - action:
                   character:
                     char: G
@@ -463,13 +430,12 @@ keyboards:
                 char: h
             width:
               percentage: 0.1
-            label: P
+            label: H
             swipe:
               - action:
                   character:
                     char: "-"
-                label: AP
-                display: true
+                display: false
                 processByRIME: false
                 direction: up
               - action:
@@ -495,13 +461,12 @@ keyboards:
                 char: j
             width:
               percentage: 0.1
-            label: T
+            label: J
             swipe:
               - action:
                   character:
                     char: "+"
-                label: AT
-                display: true
+                display: false
                 processByRIME: false
                 direction: up
               - action:
@@ -532,8 +497,7 @@ keyboards:
               - action:
                   character:
                     char: ：
-                label: AK
-                display: true
+                display: false
                 processByRIME: false
                 direction: up
               - action:
@@ -559,13 +523,12 @@ keyboards:
                 char: l
             width:
               percentage: 0.1
-            label: R
+            label: L
             swipe:
               - action:
                   character:
                     char: “
-                label: AI
-                display: true
+                display: false
                 processByRIME: false
                 direction: up
               - action:
@@ -597,7 +560,7 @@ keyboards:
               percentage: 0.1
             label: 查
             processByRIME: true
-            callout: 
+            callout:
               - action:
                   shortcutCommand: "#简繁切换"
                 label: 繁簡切換
@@ -606,15 +569,8 @@ keyboards:
                 char: z
             width:
               percentage: 0.1
-            label: H
+            label: Z
             swipe:
-              - action:
-                  character:
-                    char: ""
-                label: AU
-                display: true
-                processByRIME: true
-                direction: up
               - action:
                   character:
                     char: Z
@@ -632,15 +588,8 @@ keyboards:
                 char: x
             width:
               percentage: 0.1
-            label: Wr
+            label: X
             swipe:
-              - action:
-                  character:
-                    char: ""
-                label: UI
-                display: true
-                processByRIME: true
-                direction: up
               - action:
                   character:
                     char: X
@@ -658,15 +607,8 @@ keyboards:
                 char: c
             width:
               percentage: 0.1
-            label: H
+            label: C
             swipe:
-              - action:
-                  character:
-                    char: ""
-                label: UN
-                display: true
-                processByRIME: true
-                direction: up
               - action:
                   character:
                     char: C
@@ -684,14 +626,13 @@ keyboards:
                 char: v
             width:
               percentage: 0.1
-            label: Sr
+            label: V
             swipe:
               - action:
                   character:
-                    char: ""
-                label: E
-                display: true
-                processByRIME: true
+                    char: "、"
+                display: false
+                processByRIME: false
                 direction: up
               - action:
                   character:
@@ -710,13 +651,12 @@ keyboards:
                 char: b
             width:
               percentage: 0.1
-            label: Cr
+            label: B
             swipe:
               - action:
                   character:
                     char: ，
-                label: EŊ
-                display: true
+                display: false
                 processByRIME: false
                 direction: up
               - action:
@@ -736,13 +676,12 @@ keyboards:
                 char: n
             width:
               percentage: 0.1
-            label: Pr
+            label: N
             swipe:
               - action:
                   character:
                     char: 。
-                label: ƏM
-                display: true
+                display: false
                 processByRIME: false
                 direction: up
               - action:
@@ -762,13 +701,12 @@ keyboards:
                 char: m
             width:
               percentage: 0.1
-            label: Tr
+            label: M
             swipe:
               - action:
                   character:
                     char: ？
-                label: AM
-                display: true
+                display: false
                 processByRIME: false
                 direction: up
               - action:
@@ -797,7 +735,7 @@ keyboards:
                 action: { shortcutCommand: "#重输" }
       - keys:
           - action:
-              keyboardType: classifySymbolic
+              keyboardType: numeric
             width:
               percentage: 0.25
           - action: space
@@ -813,6 +751,10 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: right
+            callout:
+              - action:
+                  shortcutCommand: "#方案切换"
+                label: 方案切換
           - action: enter
             width:
               percentage: 0.25
