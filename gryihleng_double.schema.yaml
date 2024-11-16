@@ -140,17 +140,17 @@ translator:
     - xform/(^|[ '])t/$1Cˁ/
     - xform/(^|[ '])g/$1C/
     - xform/(^|[ '])b/$1Cʳ/
-    - xform/(^|[ '])y/$1Pˁ/
-    - xform/(^|[ '])h/$1P/
-    - xform/(^|[ '])n/$1Pʳ/
+    - xform/(^|[ '])y/$1Kˁ/
+    - xform/(^|[ '])h/$1K/
+    - xform/(^|[ '])n/$1Kʳ/
     - xform/(^|[ '])u/$1Tˁ/
     - xform/(^|[ '])j/$1T/
     - xform/(^|[ '])m/$1Tʳ/
     - xform/(^|[ '])i/$1L/
-    - xform/(^|[ '])k/$1K/
-    - xform/(^|[ '])o/$1Kˁ/
+    - xform/(^|[ '])k/$1P/
+    - xform/(^|[ '])o/$1Pˁ/
     - xform/(^|[ '])l/$1R/
-    - xform/(^|[ '])p/$1Kʳ/
+    - xform/(^|[ '])p/$1Pʳ/
     - xform/q/UŊ/
     - xform/a/OŊ/
     - xform/z/AU/
@@ -166,17 +166,17 @@ translator:
     - xform/t/ƏŊ/
     - xform/g/AŊ/
     - xform/b/EŊ/
-    - xform/y/ƏP/
-    - xform/h/AP/
-    - xform/n/ƏM/
+    - xform/y/ƏK/
+    - xform/h/AK/
+    - xform/n/EK/
     - xform/u/ƏT/
     - xform/j/AT/
     - xform/m/AM/
     - xform/i/I/
-    - xform/k/AK/
-    - xform/o/ƏK/
+    - xform/k/AP/
+    - xform/o/ƏP/
     - xform/l/AI/
-    - xform/p/EK/
+    - xform/p/ƏM/
     - xform/;/-/
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZƏŊ|abcdefghijklmnopqrstuvwxyzəŋ|"
 
