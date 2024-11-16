@@ -190,7 +190,7 @@ reverse_lookup:
     - xform/dl/ɦl/
     - xform/(kh?|g|h)l/$1ˡ/
     - xform/([pmkŋwlrtnc])h/$1ʰ/
-    - xform/([^s])w/$1ʷ/
+    - xform/([^s])w/$1ʷ/ # buggy, need to be fixed in the style of the previous line 
     - xform/A//
     - xform/B/ʳ/
     - xform/[14]/ˁ/
