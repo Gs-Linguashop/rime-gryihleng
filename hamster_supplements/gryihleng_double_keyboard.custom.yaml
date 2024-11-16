@@ -169,12 +169,12 @@ keyboards:
                 char: y
             width:
               percentage: 0.1
-            label: P.
+            label: K.
             swipe:
               - action:
                   character:
                     char: "6"
-                label: ƏP
+                label: ƏK
                 display: true
                 processByRIME: false
                 direction: up
@@ -265,12 +265,12 @@ keyboards:
                 char: o
             width:
               percentage: 0.1
-            label: K.
+            label: P.
             swipe:
               - action:
                   character:
                     char: "9"
-                label: ƏK
+                label: ƏP
                 display: true
                 processByRIME: false
                 direction: up
@@ -297,12 +297,12 @@ keyboards:
                 char: p
             width:
               percentage: 0.1
-            label: Kr
+            label: Pr
             swipe:
               - action:
                   character:
                     char: "0"
-                label: EK
+                label: ƏM
                 display: true
                 processByRIME: false
                 direction: up
@@ -463,12 +463,12 @@ keyboards:
                 char: h
             width:
               percentage: 0.1
-            label: P
+            label: K
             swipe:
               - action:
                   character:
                     char: "-"
-                label: AP
+                label: AK
                 display: true
                 processByRIME: false
                 direction: up
@@ -527,12 +527,12 @@ keyboards:
                 char: k
             width:
               percentage: 0.1
-            label: K
+            label: P
             swipe:
               - action:
                   character:
                     char: ：
-                label: AK
+                label: AP
                 display: true
                 processByRIME: false
                 direction: up
@@ -736,12 +736,12 @@ keyboards:
                 char: n
             width:
               percentage: 0.1
-            label: Pr
+            label: Kr
             swipe:
               - action:
                   character:
                     char: 。
-                label: ƏM
+                label: EK
                 display: true
                 processByRIME: false
                 direction: up

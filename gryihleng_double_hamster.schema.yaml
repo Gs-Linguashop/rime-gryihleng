@@ -4,7 +4,7 @@
 schema:
   schema_id: gryihleng_double_hamster
   name: "諧聲雙拼"
-  version: "2024.02.13"
+  version: "2024.11.16"
   author:
     - 亓 <ziqiphyzhou@gmail.com>
   dependencies:
@@ -19,6 +19,7 @@ switches:
     reset: 0
     states: ["半角", "全角"]
   - name: simplification
+    reset: 0
     states: ["漢字", "汉字"]
 
 engine:
@@ -62,9 +63,9 @@ speller:
     - derive/([skgxqv]h?)(\d)o([itn])/$1w$2a$3/
     - derive/([skgxqv]h?)(\d)([uo])([itn])/$1w$2$3$4/
     # 韻母
-    - xform/yk/O/
-    - xform/ak/K/
-    - xform/ek/P/
+    - xform/yk/Y/
+    - xform/ak/H/
+    - xform/ek/N/
     - xform/yv/T/
     - xform/av/G/
     - xform/ev/B/
@@ -79,9 +80,9 @@ speller:
     - xform/[iy]n|([12])en/$1E/
     - xform/an|([35])en/$1D/
     - xform/[uo]n/C/
-    - xform/[iy]p|([12])ep/$1Y/
-    - xform/ap|([35])ep/$1H/
-    - xform/[iy]m|([12])em/$1N/
+    - xform/[iy]p|([12])ep/$1O/
+    - xform/ap|([35])ep/$1K/
+    - xform/[iy]m|([12])em/$1P/
     - xform/am|([35])em/$1M/
     - xform/y/R/
     - xform/i?a/F/
@@ -91,13 +92,13 @@ speller:
     - xform/i/I/
     #聲母
     - xform/(m|d)l\d/I/
-    - xform/[pb]h?1/Y/
-    - xform/[pb]h?[35]/H/
-    - xform/[pb]h?2/N/
+    - xform/[pb]h?1/O/
+    - xform/[pb]h?[35]/K/
+    - xform/[pb]h?2/P/
     - xform/m[h]?\d/A/
-    - xform/[kg]h?l?1/O/
-    - xform/[kg]h?l?[35]/K/
-    - xform/[kg]h?l?2/P/
+    - xform/[kg]h?l?1/Y/
+    - xform/[kg]h?l?[35]/H/
+    - xform/[kg]h?l?2/N/
     - derive/xl?\d/C/ # 曉母額外可選按鍵
     - xform/xl?\d/Z/
     - xform/q\d/Q/
@@ -191,7 +192,7 @@ reverse_lookup:
     - xform/dl/ɦl/
     - xform/(kh?|g|h)l/$1ˡ/
     - xform/([pmkŋwlrtnc])h/$1ʰ/
-    - xform/([^s])w/$1ʷ/
+    - xform/([kghʰʔŋ])w/$1ʷ/
     - xform/A//
     - xform/B/ʳ/
     - xform/[14]/ˁ/

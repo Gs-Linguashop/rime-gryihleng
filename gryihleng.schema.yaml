@@ -4,7 +4,7 @@
 schema:
   schema_id: gryihleng
   name: "諧聲全拼"
-  version: "2024.02.13"
+  version: "2024.11.16"
   author:
     - 亓 <ziqiphyzhou@gmail.com>
   dependencies:
@@ -19,6 +19,7 @@ switches:
     reset: 0
     states: ["半角", "全角"]
   - name: simplification
+    reset: 0
     states: ["漢字", "汉字"]
 
 engine:
@@ -97,7 +98,7 @@ reverse_lookup:
     - xform/dl/ɦl/
     - xform/(kh?|g|h)l/$1ˡ/
     - xform/([pmkŋwlrtnc])h/$1ʰ/
-    - xform/([^s])w/$1ʷ/
+    - xform/([kghʰʔŋ])w/$1ʷ/
     - xform/A//
     - xform/B/ʳ/
     - xform/[14]/ˁ/
