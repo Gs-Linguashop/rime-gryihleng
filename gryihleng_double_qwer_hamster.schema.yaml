@@ -2,9 +2,9 @@
 # encoding: utf-8
 
 schema:
-  schema_id: gryihleng_double_hamster
-  name: "諧聲雙拼"
-  version: "2024.11.17"
+  schema_id: gryihleng_double_qwer_hamster
+  name: "諧聲雙拼qwer"
+  version: "2024.11.16"
   author:
     - 亓 <ziqiphyzhou@gmail.com>
   dependencies:
@@ -61,64 +61,63 @@ speller:
     - derive/([pb]h?\d)uv/$1ym/
     - derive/([skgxqv]h?)(\d)u([itn])/$1w$2y$3/
     - derive/([skgxqv]h?)(\d)o([itn])/$1w$2a$3/
-    - derive/([skgxqv]h?)(\d)([uo])([itn])/$1w$2$3$4/
     - derive/g(w[12][ya][itn])/$1/
     # 韻母
-    - xform/yk/Y/
-    - xform/ak/H/
-    - xform/ek/N/
-    - xform/yv/T/
-    - xform/av/G/
-    - xform/ev/B/
-    - xform/uv/Q/
-    - xform/ov/A/
-    - xform/[ea]uk?/Z/
+    - xform/yk/B/
+    - xform/ak/Z/
+    - xform/ek/C/
+    - xform/yv/G/
+    - xform/av/H/
+    - xform/ev/D/
+    - xform/uv/W/
+    - xform/ov/S/
+    - xform/[ea]uk?/K/
     - xform/yi/I/
     - xform/ai/L/
-    - xform/[uo][it]/X/
-    - xform/[iy]t|([12])et/$1U/
-    - xform/at|([35])et/$1J/
-    - xform/[iy]n|([12])en/$1E/
-    - xform/an|([35])en/$1D/
-    - xform/[uo]n/C/
-    - xform/[iy]p|([12])ep/$1O/
-    - xform/ap|([35])ep/$1K/
-    - xform/[iy]m|([12])em/$1P/
+    - xform/[uo][it]/V/
+    - xform/[iy]t|([12])et/$1R/
+    - xform/at|([35])et/$1T/
+    - xform/[iy]n|([12])en/$1F/
+    - xform/an|([35])en/$1J/
+    - xform/[uo]n/X/
+    - xform/[iy]p|([12])ep/$1Q/
+    - xform/ap|([35])ep/$1P/
+    - xform/[iy]m|([12])em/$1N/
     - xform/am|([35])em/$1M/
-    - xform/y/R/
-    - xform/i?a/F/
-    - xform/i?uk?/W/
-    - xform/ok?/S/
-    - xform/e/V/
+    - xform/y/Y/
+    - xform/i?a/A/
+    - xform/i?uk?/U/
+    - xform/ok?/O/
+    - xform/e/E/
     - xform/i/I/
     #聲母
-    - xform/(m|d)l\d/I/
-    - xform/[pb]h?1/O/
-    - xform/[pb]h?[35]/K/
-    - xform/[pb]h?2/P/
-    - xform/m[h]?\d/A/
-    - xform/[kg]h?l?1/Y/
-    - xform/[kg]h?l?[35]/H/
-    - xform/[kg]h?l?2/N/
-    - derive/xl?\d/C/ # 曉母額外可選按鍵
-    - xform/xl?\d/Z/
+    - xform/[mds]l\d/L/
+    - xform/p\d/P/
+    - xform/ph\d/O/
+    - xform/b\d/B/
+    - xform/mh?\d/M/
+    - xform/kl?\d/K/
+    - xform/khl?\d/J/
+    - xform/gl?\d/G/
+    - xform/xl?\d/H/
     - xform/q\d/Q/
-    - xform/vh?\d/E/
-    - xform/[skgxqv]?h?w1/W/
-    - xform/[skgxqv]?h?w[35]/S/
-    - xform/[skgxqv]?h?w2/X/
-    - xform/jh?\d/I/
-    - xform/r\d/L/ # must preceed processing "t" and "s" 
-    - xform/[td]h?1/U/
-    - xform/[td]h?3/J/
-    - xform/[td]h?[25]/M/
-    - xform/nh?\d/D/
-    - xform/[cz]h?1/T/
-    - xform/[cz]h?3/G/
-    - xform/[cz]h?[25]/B/
-    - xform/s[lt]?1/R/
-    - xform/s[lt]?3/F/
-    - xform/s[25]/V/
+    - xform/vh?\d/A/
+    - xform/[sqv]?w\d/W/
+    - xform/kw\d/I/
+    - xform/khw\d/U/
+    - xform/gw\d/Y/
+    - xform/xw\d/V/
+    - xform/j\d/L/
+    - xform/jh\d/E/
+    - xform/r\d/R/ # must preceed processing "t" and "s" 
+    - xform/s?t\d/T/
+    - xform/th\d/F/
+    - xform/d\d/D/
+    - xform/nh?\d/N/
+    - xform/c\d/C/
+    - xform/ch\d/X/
+    - xform/z\d/Z/
+    - xform/s\d/S/
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|abcdefghijklmnopqrstuvwxyz|"
     - abbrev/^([a-z]).$/\U$1/ # 簡拼（首字母）
 
@@ -127,58 +126,58 @@ translator:
   prism: gryihleng_double
   preedit_format:
     - xform/([A-Z])/\L$1;/
+    - xform/(^|[ '])a/$1Ŋ/
+    - xform/(^|[ '])b/$1B/
+    - xform/(^|[ '])c/$1C/
+    - xform/(^|[ '])d/$1D/
+    - xform/(^|[ '])e/$1Lʰ/
+    - xform/(^|[ '])f/$1Tʰ/
+    - xform/(^|[ '])g/$1G/
+    - xform/(^|[ '])h/$1H/
+    - xform/(^|[ '])i/$1Kʷ/
+    - xform/(^|[ '])j/$1Kʰ/
+    - xform/(^|[ '])k/$1K/
+    - xform/(^|[ '])l/$1L/
+    - xform/(^|[ '])m/$1M/
+    - xform/(^|[ '])n/$1N/
+    - xform/(^|[ '])o/$1Pʰ/
+    - xform/(^|[ '])p/$1P/
     - xform/(^|[ '])q/$1ʔ/
-    - xform/(^|[ '])a/$1M/
-    - xform/(^|[ '])z/$1H/
-    - xform/(^|[ '])w/$1Wˁ/
-    - xform/(^|[ '])s/$1W/
-    - xform/(^|[ '])x/$1Wʳ/
-    - xform/(^|[ '])e/$1Ŋ/
-    - xform/(^|[ '])d/$1N/
-    - xform/(^|[ '])c/$1H/
-    - xform/(^|[ '])r/$1Sˁ/
-    - xform/(^|[ '])f/$1S/
-    - xform/(^|[ '])v/$1Sʳ/
-    - xform/(^|[ '])t/$1Cˁ/
-    - xform/(^|[ '])g/$1C/
-    - xform/(^|[ '])b/$1Cʳ/
-    - xform/(^|[ '])y/$1Kˁ/
-    - xform/(^|[ '])h/$1K/
-    - xform/(^|[ '])n/$1Kʳ/
-    - xform/(^|[ '])u/$1Tˁ/
-    - xform/(^|[ '])j/$1T/
-    - xform/(^|[ '])m/$1Tʳ/
-    - xform/(^|[ '])i/$1L/
-    - xform/(^|[ '])k/$1P/
-    - xform/(^|[ '])o/$1Pˁ/
-    - xform/(^|[ '])l/$1R/
-    - xform/(^|[ '])p/$1Pʳ/
-    - xform/q/UŊ/
-    - xform/a/OŊ/
-    - xform/z/AU/
-    - xform/w/U/
-    - xform/s/O/
-    - xform/x/UI/
-    - xform/e/ƏN/
-    - xform/d/AN/
-    - xform/c/UN/
-    - xform/r/Ə/
-    - xform/f/A/
-    - xform/v/E/
-    - xform/t/ƏŊ/
-    - xform/g/AŊ/
-    - xform/b/EŊ/
-    - xform/y/ƏK/
-    - xform/h/AK/
-    - xform/n/EK/
-    - xform/u/ƏT/
-    - xform/j/AT/
-    - xform/m/AM/
+    - xform/(^|[ '])r/$1R/
+    - xform/(^|[ '])s/$1S/
+    - xform/(^|[ '])t/$1T/
+    - xform/(^|[ '])u/$1Kʰʷ/
+    - xform/(^|[ '])v/$1Hʷ/
+    - xform/(^|[ '])w/$1W/
+    - xform/(^|[ '])x/$1Cʰ/
+    - xform/(^|[ '])y/$1Gʷ/
+    - xform/(^|[ '])z/$1Z/
+    - xform/a/A/
+    - xform/b/ƏK/
+    - xform/c/EK/
+    - xform/d/EŊ/
+    - xform/e/E/
+    - xform/f/ƏN/
+    - xform/g/ƏŊ/
+    - xform/h/AŊ/
     - xform/i/I/
-    - xform/k/AP/
-    - xform/o/ƏP/
+    - xform/j/AN/
+    - xform/k/AU/
     - xform/l/AI/
-    - xform/p/ƏM/
+    - xform/m/AM/
+    - xform/n/ƏM/
+    - xform/o/O/
+    - xform/p/AP/
+    - xform/q/ƏP/
+    - xform/r/ƏT/
+    - xform/s/OŊ/
+    - xform/t/AT/
+    - xform/u/U/
+    - xform/v/UI/
+    - xform/w/UŊ/
+    - xform/x/UN/
+    - xform/y/Ə/
+    - xform/z/AK/
     - xform/;/-/
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZƏŊ|abcdefghijklmnopqrstuvwxyzəŋ|"
 

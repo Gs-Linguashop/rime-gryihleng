@@ -4,7 +4,7 @@
 schema:
   schema_id: gryihleng
   name: "諧聲全拼"
-  version: "2024.11.16"
+  version: "2024.11.17"
   author:
     - 亓 <ziqiphyzhou@gmail.com>
   dependencies:
@@ -60,6 +60,7 @@ speller:
     - derive/([skgxqv]h?)([AB124])u([itn])/$1w$2y$3/
     - derive/([skgxqv]h?)([AB124])o([itn])/$1w$2a$3/
     - derive/([skgxqv]h?)([AB124])([uo])([itn])/$1w$2$3$4/
+    - derive/g(w[12][ya][itn])/$1/
     # 介音
     - xform/[A14]//
     - xform/[B2]/r/

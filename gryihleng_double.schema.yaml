@@ -4,7 +4,7 @@
 schema:
   schema_id: gryihleng_double
   name: "諧聲雙拼"
-  version: "2024.11.16"
+  version: "2024.11.17"
   author:
     - 亓 <ziqiphyzhou@gmail.com>
   dependencies:
@@ -62,6 +62,7 @@ speller:
     - derive/([skgxqv]h?)(\d)u([itn])/$1w$2y$3/
     - derive/([skgxqv]h?)(\d)o([itn])/$1w$2a$3/
     - derive/([skgxqv]h?)(\d)([uo])([itn])/$1w$2$3$4/
+    - derive/g(w[12][ya][itn])/$1/
     # 韻母
     - xform/yk/Y/
     - xform/ak/H/
